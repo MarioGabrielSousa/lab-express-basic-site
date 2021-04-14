@@ -12,7 +12,7 @@
   justify-content: center;
   background-image: url("/images/finalBackG3.jpg");
   background-size: cover;
-  height: 700px;
+  height: 900px;
 }
 
 .front-page h1 {
@@ -22,6 +22,20 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 70px;
   color: white;
+}
+
+.corn-uni {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5rem;
+}
+
+.corn-uni p {
+  width: 32rem;
+  font-size: 28px;
+  border: 4px solid salmon;
+  padding: 35px;
 }
 
 .game-over {
@@ -45,7 +59,7 @@ nav a {
 }
 
 .photo-margin {
-  padding: 50px
+  padding: 50px;
 }
 
 .photo-display {
