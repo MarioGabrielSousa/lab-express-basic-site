@@ -1,0 +1,55 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.corn-uni {
+  display: flex;
+}
+
+.front-page {
+  display: flex;
+  justify-content: center;
+  background-image: url("/images/finalBackG3.jpg");
+  background-size: cover;
+  height: 700px;
+}
+
+.front-page h1 {
+  position: relative;
+  top: 20%;
+  left: 5%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 70px;
+  color: white;
+}
+
+.game-over {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  background-color: yellow;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+nav button {
+  background-color: teal;
+  border-radius: 5px;
+}
+
+nav a {
+  color: hotpink;
+}
+
+.photo-margin {
+  padding: 50px
+}
+
+.photo-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
